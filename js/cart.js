@@ -98,7 +98,7 @@ class Cart {
           this.cartContainer.modal('hide');
         })
         .catch(error => showAlert('There is an error: ' + error, true));
-    } else {
+    } else{
       window.showAlert('Please fill all fields', false);
     }
   }
